@@ -6,10 +6,10 @@ const OutputContent = ({ value }) => {
 
     React.useEffect(() => {
         if (value === '') {
-            const data = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=type_your_input_first`
+            const data = `https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=type_your_input_first`
             setLink(data)
         } else {
-            const data = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${value}`
+            const data = `https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${value}`
             setLink(data)
         }
     }, [value])
