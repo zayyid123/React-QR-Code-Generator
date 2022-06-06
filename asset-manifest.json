@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-QR-Code-Generator/static/css/main.9316d411.css",
+    "main.js": "/React-QR-Code-Generator/static/js/main.518ef2dd.js",
+    "static/media/light-mode.png": "/React-QR-Code-Generator/static/media/light-mode.8b49bce8c757f3b43b89.png",
+    "static/media/night-mode.png": "/React-QR-Code-Generator/static/media/night-mode.7f5984cf938931c17454.png",
+    "index.html": "/React-QR-Code-Generator/index.html",
+    "main.9316d411.css.map": "/React-QR-Code-Generator/static/css/main.9316d411.css.map",
+    "main.518ef2dd.js.map": "/React-QR-Code-Generator/static/js/main.518ef2dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9316d411.css",
+    "static/js/main.518ef2dd.js"
+  ]
+}
