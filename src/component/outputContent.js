@@ -15,7 +15,7 @@ const OutputContent = ({ value }) => {
     }, [value])
 
     const download = (e) => {
-        fetch(e.target.href, {
+        fetch(link, {
             method: "GET",
             headers: {},
         })
@@ -24,7 +24,7 @@ const OutputContent = ({ value }) => {
                     const url = window.URL.createObjectURL(new Blob([buffer]));
                     const link = document.createElement("a");
                     link.href = url;
-                    link.setAttribute("download", `${value === '' ? nameAlternative : value}.jpg`); //or any other extension
+                    link.setAttribute("download", `${value === '' ? nameAlternative : value}.png`); //or any other extension
                     document.body.appendChild(link);
                     link.click();
                 });

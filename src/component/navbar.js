@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className='max-w-5xl mx-auto text-slate-50 dark:text-white flex justify-between items-center'>
                 <h1 className='font-semibold text-2xl p-3'>QR Code Generator</h1>
 
-                <div className='flex justify-between items-center'>
+                <div className='flex items-center mr-2'>
                     <img onClick={handleMode} className='cursor-pointer w-[30px] h-[30px]' src={darkMode === 'dark' ? light : dark} alt='icon light' />
                 </div>
             </div>
